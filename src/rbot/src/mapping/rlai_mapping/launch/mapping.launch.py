@@ -113,6 +113,7 @@ def generate_launch_description():
             'use_sim_time': LaunchConfiguration('use_sim_time'),
             'autostart': True,
             'node_names': ['slam_toolbox', 'map_saver_server'],
+            'bond_timeout': 0.0,
         }],
     )
 

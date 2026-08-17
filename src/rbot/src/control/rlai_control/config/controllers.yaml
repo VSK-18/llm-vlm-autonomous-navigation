@@ -31,7 +31,7 @@ diff_drive_controller:
     publish_odom:    true
     open_loop:       false
     position_feedback: true
-    enable_odom_tf:  false    # EKF publishes odom->base_footprint; avoid duplicate TF.
+    enable_odom_tf:  true    # EKF publishes odom->base_footprint; avoid duplicate TF.
     odom_publish_rate: 50     # Hz
     tf_frame_prefix_enable: false
 
